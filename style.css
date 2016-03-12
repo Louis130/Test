@@ -1,13 +1,9 @@
-h1 {
-	color: black;
-	margin: 0px;
+body {
+	padding: 0%;
+	margin: 0%;
 	height: 100%;
-	width: 200px;
-	text-align: center;
-	padding-top: 10px;
-}
-p {
-	text-align: center;
+	width: 100%;
+	background: url("fond.png") fixed no-repeat;
 }
 header {
 	background-color: white;
@@ -15,6 +11,14 @@ header {
 	border: black;
 	box-shadow: 0px 0px 5px inset;
 	padding: 0px;
+}
+h1 {
+	color: black;
+	margin: 0px;
+	height: 100%;
+	width: 200px;
+	text-align: center;
+	padding-top: 10px;
 }
 header nav {
 	text-align: right;
@@ -40,13 +44,11 @@ header nav ul li a {
 	text-decoration: underline;
 	font-size: 20px;
 }
-body {
-	padding: 0;
-	margin: 0;
-}
 form p {
 	font-size: 30px;
-
+}
+p {
+	text-align: center;
 }
 textarea {
 	font-size: 20px;
@@ -71,11 +73,3 @@ footer {
 #suggestion {
 	box-shadow: 2px 2px 5px inset;
 }
-#allpage {
-	min-height: 100%;
-	background: url("fond.png") fixed no-repeat;
-}
-
-/*#allpage {
-	background-color: rgb(36, 101, 140);
-}*/
