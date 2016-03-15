@@ -8,15 +8,7 @@
     <body>
  	  	<header>
 			<h1>Your Page</h1>
-			<nav>
-				<ul>
-					<li><a href=web.php?code=12>home</a></li>
-					<li><a href=web.php?code=12&page=3>big data</a></li>
-					<li><a href=web.php?code=12&page=2>heat control</a></li>
-					<li><a href=web.php?code=12&page=1>power supply</a></li>
-					<li><a href=web.php?code=12&page=4>about</a></li>
-				</ul>
-			</nav>
+			<?php include("Navigation.php"); ?>
    		</header>
 		<form method="post" action="pageaffiche.png">
 			<p>
@@ -24,7 +16,7 @@
 				</label><br /><br />
 				<textarea name="suggestion" id="suggestion" rows="10"cols="50">  Make us know what you think about our website...
 				</textarea>
-				<input type="submit" value="Send" for="suggestion"/>
+				<input type="submit" value="Send" />
 			</p>
 		</form>
 		<footer>
