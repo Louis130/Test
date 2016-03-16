@@ -20,8 +20,7 @@
 			</p>
 		</form>
 		<footer>
-			<p><a href="mailto:loulou.bernon@gmail.com" id="mail" >Send me and email !</a>
-			</p>
+			<?php include("Footer.php") ?>
 		</footer>
 	</body>
 </html>
